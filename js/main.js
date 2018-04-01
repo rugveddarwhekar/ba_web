@@ -4,7 +4,7 @@
 
 
     /*==================================================================
-    [ Focus input ]*/
+    [ Focus input ]*//*login page var username and password ha shabd varti jato tyasathi focus,blur he fuctions */
     $('.input100').each(function(){
         $(this).on('blur', function(){
             if($(this).val().trim() != "") {
@@ -66,8 +66,13 @@
         $(thisAlert).removeClass('alert-validate');
     }
     ==============================================================================================*/
+   /* validate inputs i.e. username and password from database done by PHP script i.e login_admin.php*/
+
+
+
+
     /*==================================================================
-    [ Show pass ]*/
+    [ Show pass ] eye on the field of password i.e. show password*/
     var showPass = 0;
     $('.btn-show-pass').on('click', function(){
         if(showPass == 0) {
